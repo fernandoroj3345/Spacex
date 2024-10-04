@@ -1,0 +1,52 @@
+#app {
+    display: grid; /* Activo el grid */
+    grid-template-columns: repeat(auto-fill, minmax(200px, 1fr)); /* Distribuye las columnas de manera automática */
+    grid-gap: 20px; /* Espacio entre las tarjetas */
+    padding: 20px;
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    background-color: #f9f9f9;
+    transition: transform 0.2s;
+}
+
+.card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto hover para agrandar ligeramente la tarjeta */
+}
+
+.card {
+    border: 1px solid #ccc;
+    padding: 15px;
+    text-align: center;
+    background-color: cadetblue;
+    transition: transform 0.2s;
+    cursor: pointer; /* Añadir cursor pointer para que sea evidente que es clickeable */
+}
+
+.card:hover {
+    transform: scale(1.05); /* Efecto hover para agrandar ligeramente la tarjeta */
+}
+
+.card img {
+    max-width: 100px;
+    margin-bottom: 10px;
+}
+
+.hidden {
+    display: none;
+}
+
+
+
+
+
+
+
